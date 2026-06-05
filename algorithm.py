@@ -1,10 +1,5 @@
-"""
-Bayesian Online Changepoint Detection (BOCD)
-Based on: Adams & MacKay (2007) "Bayesian Online Changepoint Detection"
-          https://arxiv.org/abs/0710.3742
- 
+""" 
 This module implements:
-  - The core BOCD algorithm (Section 2–3 of the paper)
   - All probabilistic models described in the paper (Section 4):
       * GaussianUnknownMean       – Normal likelihood, known variance
       * GaussianUnknownMeanVar    – Normal-Inverse-Gamma (full conjugate)
